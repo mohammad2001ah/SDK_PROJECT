@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --dark-color:#19283f;
+    --green-color:#33d1cc;
+    --red-color:#ff3152;
+    --yellow-color:#ffc400;
+    --section-color:#eff7fa;
+}
+.navbar{
+    background-color:var(--dark-color);
+    
+}
+.navbar-brand{
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-nav .nav-item .active{
+    color: var(--green-color);
+}
+.navbar-nav .nav-item :hover{
+    color: var(--green-color);
+}
+
+.info{
+    background-color: var(--dark-color);
+    min-height:600px;
+}
+.textJob{
+    color: black;
+}
+.job{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.job::after{
+    content: '';
+    height: 2px;
+    width: 289px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -240px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.job .iconJob{
+    height: 200px;
+}
+.row .iconJob .icon{
+    color: var(--green-color);
+    font-size: 12rem;
+    margin-top: 15px;
+}
+.row h4{
+    margin: 30px 0 30px 0;
+}
+.language .container h3::after{
+    content: '';
+    height: 2px;
+    width: 289px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.project{
+    background-color: var(--dark-color);
+}
+.project h2{
+    color: white;
+}
+.subscribe {
+    background-color: var(--yellow-color);
+}
+.subscribe input[type="email"]{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="email"]:focus{
+    outline: none;
+}
+.subscribe input[type="submit"]{
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+    border: none;
+}
+.subscribe ::placeholder{
+    color: white;
+}
+.footer{
+    background-color: var(--dark-color);
+}
+.footer .copyright #first{
+    color: var(--green-color);
+}
+.footer .copyright .it{
+    color: var(--yellow-color);
+    
+}
+.footer .facebook {
+    background-color: #1877f2;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 50%; 
+    border-radius: 50%; 
+}
+.footer .twitter {
+    background-color: #1da1f2;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 50%; 
+    border-radius: 50%; 
+}
+.footer .linkedin {
+    background-color: #0077b5;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 50%; 
+    border-radius: 50%; 
+    }
+.footer .youtube {
+    background-color: #ff0000;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 50%; 
+    border-radius: 50%; 
+}
+
